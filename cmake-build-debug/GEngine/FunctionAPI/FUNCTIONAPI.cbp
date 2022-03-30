@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FUNCTIONAPI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Demo\;CMake Files\GEngine\;CMake Files\GEngine\FunctionAPI\;CMake Files\GEngine\GraphicsAPI\;CMake Files\GEngine\RenderAPI\;CMake Files\GEngine\UserAPI\;CMake Files\Interactive\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/FunctionAPI"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/FunctionAPI/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/FunctionAPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/FunctionAPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/FunctionAPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\FunctionAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\GraphicsAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\RenderAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\UserAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Interactive\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

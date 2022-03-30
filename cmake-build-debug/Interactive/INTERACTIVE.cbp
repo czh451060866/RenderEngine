@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="INTERACTIVE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Demo\;CMake Files\GEngine\;CMake Files\GEngine\FunctionAPI\;CMake Files\GEngine\GraphicsAPI\;CMake Files\GEngine\RenderAPI\;CMake Files\GEngine\UserAPI\;CMake Files\Interactive\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INTERACTIVE">
+				<Option output="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/libINTERACTIVE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/glfw3/include"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/gl3w"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 INTERACTIVE"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INTERACTIVE/fast">
+				<Option output="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/libINTERACTIVE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/glfw3/include"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/gl3w"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 INTERACTIVE/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/Interactive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/file_selection_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/file_selection_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/info_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/info_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/log_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/log_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/menu_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/menu_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/resource_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/resource_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/scene_tree_win.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/scene_tree_win.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/window_base.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/window_base.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/winidow_ops.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/winidow_ops.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/gl3w/GL/gl3w.c">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/gl3w/GL/gl3w.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends/imgui_impl_glfw.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends/imgui_impl_glfw.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends/imgui_impl_opengl2.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/backends/imgui_impl_opengl2.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imconfig.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui_demo.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui_draw.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui_internal.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui_tables.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imgui_widgets.cpp">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imstb_rectpack.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imstb_textedit.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/ThirdParties/imgui/imstb_truetype.h">
+			<Option target="INTERACTIVE"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\FunctionAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\GraphicsAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\RenderAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\UserAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Interactive\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

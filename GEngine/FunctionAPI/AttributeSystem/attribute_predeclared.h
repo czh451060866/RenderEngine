@@ -1,0 +1,25 @@
+//
+// Created by HongZh on 2022/03/19, 19:03:03
+//
+
+#ifndef MYENGINE_ATTRIBUTE_PREDECLARED_H
+#define MYENGINE_ATTRIBUTE_PREDECLARED_H
+
+#include "general_include.h"
+#include "engine_math.h"
+
+GENG_BEGIN
+
+enum AttributeType{
+    NONE_ATTRIB = 0,
+    INVISIBLE_ATTRIB,
+    ILLUMINOUS_ATTRIB,
+    DYNAMICS_ATTRIB,
+    CAMERA_ATTRIB,
+    APPEARANCEC_ATTRIB,
+    GEOMETRY_ATTRIB
+};
+
+GENG_END
+
+#endif //MYENGINE_ATTRIBUTE_PREDECLARED_H

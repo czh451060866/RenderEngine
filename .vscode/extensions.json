@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "mjohns.clang-format",
+        "llvm-vs-code-extensions.vscode-clangd"
+    ]
+}

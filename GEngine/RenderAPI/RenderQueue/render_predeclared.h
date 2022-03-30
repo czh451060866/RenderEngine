@@ -1,0 +1,30 @@
+//
+// Created by zhanghong50 on 2022/1/24.
+//
+
+#ifndef MYENGINE_RENDER_PREDECLARED_H
+#define MYENGINE_RENDER_PREDECLARED_H
+
+#include "general_include.h"
+
+GENG_BEGIN
+
+enum RenderType{
+    BACKGROUND = 0,
+    OPAQUE,
+    TRANSPARENT,
+    SEMI_TRANSPARENT
+};
+
+enum QueueType{
+    BACKGROUND_QUEUE = 0,
+    OPAQUE_QUEUE,
+    ALPHA_TEST_QUEUE,
+    TRANSPARENT_QUEUE,
+    CUSTOMIZE_QUEUE
+};
+
+
+GENG_END
+
+#endif //MYENGINE_RENDER_PREDECLARED_H

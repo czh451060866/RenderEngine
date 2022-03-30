@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RENDERAPI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Demo\;CMake Files\GEngine\;CMake Files\GEngine\FunctionAPI\;CMake Files\GEngine\GraphicsAPI\;CMake Files\GEngine\RenderAPI\;CMake Files\GEngine\UserAPI\;CMake Files\Interactive\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RENDERAPI">
+				<Option output="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/libRENDERAPI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies/glew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 RENDERAPI"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RENDERAPI/fast">
+				<Option output="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/libRENDERAPI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl"/>
+					<Add directory="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/Dependencies/glew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 RENDERAPI/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/chenzhihui/Software/opengl/AliceEngine/cmake-build-debug/GEngine/RenderAPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/compile_predeclared.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/data_buffer.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/data_buffer.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/draw_call.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/draw_call.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/frame_buffer.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/frame_buffer.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/shader.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/shader.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/shader_program.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/shader_program.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/status_call.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/status_call.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/texture_2d.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/texture_2d.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/texture_cube.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/opengl/texture_cube.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/data_pool.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/data_pool.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/fbo_pool.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/fbo_pool.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/shader_pool.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/shader_pool.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/texture_pool.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderBuffer/texture_pool.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_integrator.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_integrator.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_mesh.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_mesh.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_node.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_node.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_parameter.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_parameter.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_system.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderData/render_system.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderFactory/render_factory.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderFactory/render_factory.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderLog/render_log.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderLog/render_log.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/data_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/data_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/draw_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/draw_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/fbo_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/fbo_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/initialization_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/initialization_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/shader_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/shader_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/status_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/status_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/texture_mod.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderModules/texture_mod.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_data.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_data.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue_group.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue_group.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue_priority_group.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderQueue/render_queue_priority_group.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderService/render_pipeline.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderService/render_pipeline.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderService/render_server.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderService/render_server.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderThread/engine_thread_pool.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/RenderThread/engine_thread_pool.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/engine_math.cpp">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/engine_math.h">
+			<Option target="RENDERAPI"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/FunctionAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\FunctionAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/GraphicsAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\GraphicsAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/RenderAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\RenderAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/GEngine/UserAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GEngine\UserAPI\"/>
+		</Unit>
+		<Unit filename="/Users/chenzhihui/Software/opengl/AliceEngine/Interactive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Interactive\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
